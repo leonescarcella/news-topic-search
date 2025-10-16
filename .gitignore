@@ -1,0 +1,14 @@
+# --- Ignora ambienti virtuali e configurazioni locali ---
+.venv/
+backend/.venv/
+__pycache__/
+*.pyc
+
+# --- File sensibili ---
+backend/.env
+.env
+
+# --- Dati e log temporanei ---
+*.log
+db_data/
+/tmp/
